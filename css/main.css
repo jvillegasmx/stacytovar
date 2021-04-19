@@ -1,0 +1,743 @@
+html, body, *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.navbar-fixed nav {
+    position: fixed;
+    height: 84px;
+}
+ul:not(.browser-default) {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 10px;
+    font-weight: 800;
+    font-family: AvenirNextLTW01-Regular;
+}
+.navbar-fixed nav {
+    position: fixed;
+    height: 84px;
+    background: #f7f6dd!important;
+}
+#logo-container img {
+    max-width: 116px;
+    padding-top: 7px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -50px;
+    position: relative;
+}
+.navbar-fixed {
+    height: 60px;
+}
+.padding-0-slider{
+    height: 0px!important;
+}
+.container {
+    width: 70%;
+}
+.socials-li > a > img{
+    max-width: 70%;
+    margin-top: 13px;
+
+}
+.socials-li a{
+    padding: 0px;
+}
+.socials-li{
+    text-align: center
+}
+nav ul a {
+    color: #000;
+}
+.socials-li-movil > a > img{
+    max-width: 70%;
+    margin-top: 0px;
+    display: inline-block;
+    padding-top: 10px;
+}
+.socials-li-movil{
+    border-bottom: none!important;
+}
+
+
+nav ul a:hover {
+    background-color: transparent;
+    color: #00c2c2;
+}
+nav .brand-logo, nav a, nav ul a {
+    font-size: 14px!important;
+    text-transform: uppercase;
+}
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    font-size: 37px;
+    margin-top: 9px;
+}
+.side-nav.right-aligned {
+    background:#f7f6dd;;
+}
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    color: #00c2c2;
+    font-size: 40px;
+}
+
+.item img:nth-child(2){
+    display: none;
+}
+.socials-li-movil a{
+    display: inline-block!important;
+    padding: 0 1px!important;
+
+}
+.socials-li-movil{
+    text-align: center;
+    
+}
+.side-nav.right-aligned {
+    background: #f7f6dd;
+    margin-top: 0;
+}
+#sidenav-overlay {
+    background-color: rgba(0, 194, 194, 0.59);
+    z-index: 996;
+}
+.side-nav.right-aligned {
+    background: #f7f6dd;
+    margin-top: 84px;
+    border-top: 3px solid;
+    border-right: none;
+}
+.side-nav {
+    width: 100%;
+}
+#nav-mobile li{
+    list-style-type: none;
+    border-bottom: 1px inset #717171;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.socials-li-movil a:nth-child(2){
+    margin-right: -8px;
+}
+
+/*---------------------------------------------Styles About-------------------------------------------------*/
+
+
+
+.content-all{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding:0 100px;
+    margin-top:25px; 
+}
+
+#body-background-about{
+    background: linear-gradient(to bottom, #f6e2a5 0%, #a5f0ec 100%);
+    background-attachment: fixed;
+    color: #000;
+}
+
+.seccion-1-content, .seccion-2-content{
+    width:100%;
+    display: inline-block; 
+    vertical-align: top;
+    margin: 0 auto;
+}
+.seccion-1-content{
+    max-width: 50%;
+    margin-top:35px; 
+
+}
+.log-far-fit, .log-omaha{
+    display: inline-block;
+    width: 100%;
+    max-width:49%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    vertical-align: top;
+}
+.log-far-fit-2, .log-omaha-2{
+    display: inline-block;
+    width: 100%;
+    max-width:49%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    vertical-align: top;
+    text-align: center;
+}
+.seccion-2-content{
+    max-width: 48%;
+    margin-bottom: 100px;
+
+}
+.seccion-2-content h1{
+    text-decoration: underline;
+    margin-bottom:-20px; 
+   
+}
+.seccion-2-content h2{
+    font-size: 24px;
+    font-family: 'AvenirNextLTW01-Medium';
+    text-align: left;
+    margin-top: 60px;
+}
+.seccion-2-content h1:nth-child(3){
+    text-decoration: none;
+}
+.first-display h1{
+    text-decoration: underline;
+    margin: 20px 0;
+
+}
+.first-display h1:nth-child(3){
+    text-decoration: none;
+    font-weight: 800;
+}
+.first-display h2{
+    font-size: 24px;
+    font-family: 'AvenirNextLTW01-Medium';
+    text-align: left;
+}
+
+.seccion-1-content h1, .last-display h1{
+    font-size: 24px;
+    font-family: 'AvenirNextLTW01-Medium';
+    text-align: left;
+}
+.seccion-2-content h1, .first-display h1{
+    font-size: 24px;
+    font-family: 'AvenirNextLTW01-Medium';
+}
+.seccion-1-content p{
+    font-size: 12px;
+    font-family: 'AvenirNextLTW01-Medium';
+    text-align: left;
+
+}
+.last-display p{
+    font-size: 16px;
+    font-family: 'AvenirNextLTW01-Medium';
+    text-align: left;
+}
+
+.seccion-2-content p, .first-display p{
+    font-size: 16px;
+    font-family: 'AvenirNextLTW01-Medium';
+}
+
+.seccion-2-content > p > a, .first-display > p > a{
+    color: #000;
+    text-decoration: underline;
+}
+
+.log-far-fit img{
+    vertical-align: top;
+}
+.log-far-fit p, .log-omaha p{
+    color: #000;
+    font-size: 18px;
+    margin-top:10px; 
+    max-width: 20%;
+    display:none;
+}
+.content-movil-about{
+    width: 100%;
+    max-width:90%;
+    margin: auto;
+    display: none;
+}
+.first-display img{
+    width: 100%;
+}
+
+.seccion-2-content p:nth-child(7){
+    font-style:italic; 
+}
+.seccion-2-content h2:nth-child(6){
+    font-style:italic; 
+    font-size: 24px;
+}
+.seccion-2-content h1:nth-child(1){
+    text-align:center;
+    font-size: 22px!important;
+    font-family: 'Avenir Next LT W01 Bold';
+}
+.seccion-2-content h1:nth-child(2){
+    text-align:center;
+    font-size: 22px!important;
+    font-family: 'Avenir Next LT W01 Bold';
+}
+.seccion-2-content h1:nth-child(3){
+    text-align:center;
+    font-size: 22px!important;
+    font-family: 'Avenir Next LT W01 Bold';
+}
+.first-display h1:nth-child(2){
+    text-align:center;
+    font-size: 15px!important;
+    font-family: 'Avenir Next LT W01 Bold';
+}
+
+.seccion-2-content h1{
+    text-decoration: underline!important;
+}
+.first-display h1{
+line-height: 28px;
+}
+
+/*---------------------------------------------styles Sponsors----------------------------------------*/
+
+#stacie-spon-back{
+    background:url(../img/SPONSORS1.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.stacie-background{
+   
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+.stacie-grad{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.stacie-log, .stacie-log-2{
+    display:inline-block;
+    width: 100%;
+    max-width: 49%;
+    vertical-align: top;
+}
+.stacie-log-bottom{
+    margin-top: 13%;
+}
+.stacie-log-bottom > a > img{
+    width: 100%;
+    max-width: 13%;
+}
+.stacie-log > a > img, .stacie-log-2 > a > img{
+    width: 100%;
+    max-width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.stacie-log a:nth-child(3){
+    max-width: 100%;
+    display: block;
+    margin: 85px auto;
+}
+.stacie-log-2  a:nth-child(3){
+    max-width: 100%;
+    display: block;
+    margin: 85px auto;
+}
+.prec img{
+    max-width: 300px!important;
+}
+.qli img{
+    max-width: 350px!important;
+}
+
+/*-------------------------------------------------------styles Good Cause--------------------------------------*/
+/*
+#stacie-good-cause-grad{
+    background: linear-gradient(to bottom, #fdcad3 0%, #f2658f 100%);
+    background-attachment: fixed;
+}
+*/
+.content-all-bar{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+}
+    
+
+.tittle-barbels{
+    text-align: center;
+    margin-top: 80px
+}
+.tittle-barbels img{
+    width: 100%;
+    max-width: 74%;
+    margin: auto;
+}
+.container-barbell{
+    width: 100%;
+    max-width: 65%;
+    margin: auto;
+    text-align: center;
+    background: #fff;
+    padding: 20px 30px;
+    font-family:'AvenirNextLTW01-Medium';
+    margin-top: 30px;
+}
+.container-barbell h1{
+    font-family:'AvenirNextLTW01-Medium';
+    font-size: 34px;
+    margin: 0;
+    color:#000;
+    padding-bottom: 20px;
+}
+.container-barbell p{
+    font-family:'AvenirNextLTW01-Medium';
+    font-size: 16px;
+    text-align: left;
+    color:#000;
+    line-height: 20px;
+}
+.image-bottom-bar{
+    text-align: center;
+    margin-top: 30px;
+}
+.image-bottom-bar a:nth-child(2){
+    margin-left: -8px;
+    margin-right: -8px;
+
+}
+.image-bottom-bar > a > img:nth-child(2){
+    max-width: 26.6%;
+
+}
+.image-bottom-bar img{
+    max-width: 26%;
+    width: 100%;
+    vertical-align: top;
+    }
+.image-bottom-bar {
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 84%;
+    margin: 30px auto;
+}
+#img-2-good img{
+    max-width: 25.9%;
+}
+#img3-good img{
+    max-width: 25.9%;
+}
+.container-barbell a{
+    color: #000;
+    text-decoration:underline; 
+
+}
+
+
+/*------------------------------------Contact--------------------------------------*/
+
+
+.wrapper {
+    min-height: 100%;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: block;
+    max-width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.form-label--required {
+     position: relative;
+     margin-top: 40px!important;
+}
+
+.form-input {
+    padding: 10px;
+    border: 0;
+}
+
+.form-footer {
+    text-align: left;
+}
+
+.button {
+    color: white;
+    white-space: nowrap;
+    padding : 10px 20px;
+
+}
+
+.form-input {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    background: #fff!important;
+    border-bottom: none!important;
+    height: 40px!important;
+    margin-bottom: 8px!important;
+  }
+
+.section-form h1{
+    font-family:Avenir Next LT W01 Bold;
+    font-size: 16px;
+}
+
+.section-form{
+    width: 100%;
+    max-width: 33%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.section-form p{
+    font-family: AvenirNextLTW01-Medium;
+    font-size: 16px;
+}
+imput{
+    background: #fff!important;
+    
+}
+textarea {
+    width: 100%;
+    height: 10rem;
+    background-color: #fff;
+}
+.form-label--required {
+    position: relative;
+    margin-top: 40px!important;
+    color: #000;
+    font-family: Avenir Next LT W01 Bold;
+    font-size: 16px;
+}
+#__lpform_name_icon{
+    display: none;
+}
+.form-label{
+    color: #000;
+    font-family: Avenir Next LT W01 Bold;
+    font-size: 16px;
+
+}
+.button {
+    color: white;
+    white-space: nowrap;
+    padding: 6px 20px;
+    background: #00c2c2;
+    border: none;
+    height: 33px;
+    font-family: Avenir Next LT W01 Bold;
+    font-size: 16px;
+    margin-top: 17px;
+}
+@media screen and (max-width:1288px){
+      
+    .seccion-2-content h1{
+        font-size: 19px;
+        
+    }
+    .seccion-2-content h1:nth-child(1){
+        text-align:center;
+        font-size: 19px!important;
+        font-family: 'Avenir Next LT W01 Bold';
+    }
+    .seccion-2-content h1:nth-child(2){
+        text-align:center;
+        font-size: 19px!important;
+        font-family: 'Avenir Next LT W01 Bold';
+    }
+    .seccion-2-content h1:nth-child(3){
+        text-align:center;
+        font-size: 19px!important;
+        font-family: 'Avenir Next LT W01 Bold';
+    }
+}
+@media screen and (max-width:1181px){
+    .content-all {
+        padding: 0 50px;    
+    }
+}
+@media screen and (max-width:1080px){
+    .content-all {
+        padding: 0 20px;    
+    }
+    .section-form {
+        width: 100%;
+        max-width: 70%;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .item img:nth-child(2){
+        display:block;
+        margin-top: 86px;
+    }
+    .item img:nth-child(1){
+        display:none;
+    }
+    #stacie-spon-back{
+        background:url(../img/sponsors.mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+    
+@media screen and (max-width:992px){
+    .container {
+        width: 100%;
+    }
+    .content-all {
+        padding: 0px;    
+    }
+    .seccion-1-content, .seccion-2-content {
+        display: block;
+        max-width: 90%;
+    }
+    .seccion-1-content{
+        text-align: center;
+    }
+    .seccion-1-content img{
+        width: 100%;
+    }
+    .stacie-grad {
+        padding-top: 300px;
+    }
+    .container-barbell {
+        max-width: 80%; 
+    }
+    .image-bottom-bar img {
+        max-width: 26%;
+    }
+    .section-form {
+        width: 100%;
+        max-width: 90%;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .image-bottom-bar {
+        width: 100%;
+        max-width: 100%;
+      
+    }
+    .content-all{
+        display: none;
+    }
+    .content-movil-about{
+        display:block;
+        margin-top: 72px;
+    }
+}
+
+@media screen and (max-width:414px){
+    .stacie-log > a > img, .stacie-log-2 > a > img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .stacie-grad {
+        padding-top: 40px;
+    }
+    .stacie-log, .stacie-log-2 {
+        display: block;
+        width: 100%;
+        max-width: 80%;
+        
+        margin: auto;
+        vertical-align:top;
+    }
+  
+    .stacie-background {
+        height: max-content;  
+    }
+    .stacie-log-bottom {
+        margin-top: 13%;
+        margin-bottom: 100px;
+    }
+    .image-bottom-bar {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .section-form {
+       
+        margin-top: 50px;
+        
+    }
+    .image-bottom-bar img {
+        max-width: 75%!important;
+    }
+    #img-2-good img{
+        margin-top: 30px;
+    }
+    #img3-good img{
+       margin-top: 30px;
+    }
+    .content-movil-about {
+        margin-top: 45px;
+    }
+    .log-far-fit-2, .log-omaha-2 {
+        display: block;
+        width: 100%;
+        max-width: 90%;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        vertical-align: top;
+        text-align: center;
+        margin: 70px auto;
+    }
+    .log-omaha-2 > a > img{
+        width: 53%;
+    }
+    .stacie-log a:nth-child(3) {
+        max-width: 82%;
+        display: block;
+        margin: 71px auto;
+        margin-bottom: 0;
+    }
+    .stacie-log-2 a:nth-child(3) {
+        max-width: 100%;
+        display: block;
+        margin: 38px auto;
+    }
+    
+}
+.grad-pink{
+    background: linear-gradient(to bottom, #fdcad3 0%, #f2658f 100%);
+    color: #000;
+    padding: 20px 0;
+}
+
+.keala-container{
+    background: #fff;
+    margin: 100px 0;
+    text-align: center;
+}
+.keala-int{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+.keala-int p{
+    color: #000;
+    padding: 20px 0;
+    font-size: 19px
+}
+
+.keala-int a{
+    font-size: 23px;
+    text-decoration: underline;
+}
+@media screen and (max-width:950px){
+    .keala-int{
+        max-width: 90%;
+    }
+    .keala-int img{
+        max-width: 100%;
+    }
+    .keala-int p{
+        font-size:15px; 
+    }
+}
+   

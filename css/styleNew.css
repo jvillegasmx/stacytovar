@@ -1,0 +1,74 @@
+.newVideo {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 30px 15px;
+  margin-top: 20px;
+}
+.newVideo > div {
+  border: 2px solid #f5f5f5;
+  padding: 20px;
+}
+.newVideo > div .video-wrapper {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  padding-bottom: 54.5%;
+  padding-top: 25px;
+  height: 0;
+}
+.newVideo > div .video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.grad-pink {
+  display: none;
+}
+
+.container-shop {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.container-shop p {
+  position: relative;
+  top: 140px;
+  color: #000;
+  font-size: 17px;
+  font-family: "AvenirNextLTW01-Medium";
+  text-align: center;
+  padding: 0 15px;
+}
+@media screen and (max-width: 749px) {
+  .container-shop p {
+    top: 120px;
+  }
+}
+.container-shop > div {
+  padding: 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 200px;
+}
+@media screen and (max-width: 749px) {
+  .container-shop > div {
+    flex-direction: column;
+    padding-top: 100px;
+  }
+}
+.container-shop > div img {
+  width: 100%;
+  max-width: 300px;
+}
+@media screen and (max-width: 749px) {
+  .container-shop > div img {
+    margin: 50px 0;
+  }
+}
+
+/*# sourceMappingURL=styleNew.css.map */

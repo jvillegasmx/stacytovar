@@ -1,0 +1,19 @@
+"use strict";function addTransitionsPage(e,n){var i=$(document).scrollTop();e=$(n).offset().top,i+200>e?$(n).addClass("grey-content"):$(n).removeClass("grey-content")}$(function(){$(".button-collapse").sideNav({menuWidth:300,edge:"right",closeOnClick:!0,draggable:!0}),$(".parallax").parallax(),Materialize.updateTextFields(),$(".contenido-principal p").hide(),$(".contenido-principal p").slideDown(2500,"easeOutBounce"),$("nav a:not(.button-collapse, .blog), a.contacto").on("click",function(e){e.preventDefault();var n=$(this).attr("data-menu"),i=$(".section"+n).offset().top-80;$("body, html").animate({scrollTop:i},500)}),addTransitionsPage("section1",".section1"),addTransitionsPage("section2",".section2"),addTransitionsPage("section3",".section3"),$(window).scroll(function(){addTransitionsPage("section1",".section1"),addTransitionsPage("section2",".section2"),addTransitionsPage("section3",".section3")}),$("#enviar-mail").on("click",function(){}),$("#form-mail input, #form-mail textarea, #msg").on("click keypress",function(){$("#msg").removeClass("orange")})}),jQuery(document).ready(function(e){function n(){function n(){var e=a.$Elmt.parentNode.clientWidth;e?(e=Math.min(e,99999),a.$ScaleWidth(e)):window.setTimeout(n,30)}var i={$AutoPlay:1,$Idle:0,$AutoPlaySteps:4,$SlideDuration:2500,$SlideEasing:$Jease$.$Linear,$PauseOnHover:4,$SlideWidth:180,$Cols:10},a=new $JssorSlider$("jssor_1",i);n(),e(window).bind("load",n),e(window).bind("resize",n),e(window).bind("orientationchange",n)}function i(){n(),e(".slides img").each(function(e){e>2&&clearInterval(a)}),t++}var a=setInterval(function(){i()},1e3),t=0;e("#enviar-mail").click(function(n){n.preventDefault();var i={nombre:e("#nombre").val(),correo:e("#correo").val(),telefono:e("#telefono").val(),comentario:e("#comentario").val()};i=JSON.stringify(i),e(".error-container").remove(),e(".enviar-mail").removeAttr("id"),e(".enviar-mail").html('<i class="material-icons left">send</i>Enviando...'),e.ajax({type:"POST",url:"/sendcontact",contentType:"application/json",data:i,success:function(n){"correcto"!=n?(e("#"+n).before('<div class="error-container">El campo '+n+" es requerido</div>"),e("#"+n).focus(),e(".enviar-mail").attr("id","enviar-mail"),e(".enviar-mail").html('<i class="material-icons left">send</i>Enviar')):(e(".msj-success").text("Su información se envió correctamente"),e("#form-mail input, #form-mail textarea").val(""),e(".enviar-mail").html('<i class="material-icons left">send</i>Enviar'),setTimeout(function(){e(".msj-success").text("")},1e4))}})}),e("#form-mail input, #form-mail textarea").on("keypress, keyup, keydown",function(){e(".error-container").remove()})});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
